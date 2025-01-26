@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-160e763f.js";import{f as r,_ as i,r as l,c,d as n,a as t,o as p}from"./index-55615665.js";const h=[new e("project-6","Sultans Of Sing","img/projects/project-6-icon.png",`
+import{P as e,a as o}from"./ProjectData-4026f7f4.js";import{f as r,_ as i,r as l,c,d as n,a as t,o as p}from"./index-710fc063.js";const h=[new e("project-6","Sultans Of Sing","img/projects/project-6-icon.png",`
     <div class="paragraph">
       <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
       <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
@@ -94,6 +94,6 @@ import{P as e,a as o}from"./ProjectData-160e763f.js";import{f as r,_ as i,r as l
 
             <div class="paragraph">
               <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+                Source code available on <a href="https://github.com/minoarno" target="_blank">GitHub</a>.
               </div>
             </div>`)],f=r({name:"OtherProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),g=t("h1",null,"Other stuff",-1),d=t("div",{style:{"margin-bottom":"30px"}}," And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier. ",-1);function m(a,u,v,b,w,S){const s=l("ProjectsList");return p(),c("div",null,[g,d,n(s,{projects:a.projects},null,8,["projects"])])}const _=i(f,[["render",m]]);export{_ as default};
