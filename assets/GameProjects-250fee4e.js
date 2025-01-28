@@ -1,4 +1,4 @@
-import{P as e,a as r}from"./ProjectData-641de644.js";import{f as o,_ as i,r as c,c as l,d as n,a,b as p,o as h}from"./index-4927aeac.js";const g=[new e("project-1","Optimistic Chubby","img/projects/project-1-icon.png",`
+import{P as e,a as r}from"./ProjectData-ee955af2.js";import{f as o,_ as i,r as c,c as l,d as n,a,b as p,o as h}from"./index-b986dcf5.js";const g=[new e("project-1","Optimistic Chubby","img/projects/project-1-icon.png",`
     <div class="paragraph">
      <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
      <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
