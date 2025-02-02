@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-f55bc6bf.js";import{d as r,_ as i,h as n,c,e as l,a,o as p}from"./index-fe8c6641.js";const g=[new e("project-7","Sultans Of Sing","img/projects/project-6-icon.png",`
+import{P as e,a as o}from"./ProjectData-e7fdc98f.js";import{d as r,_ as i,h as n,c,e as l,a,o as p}from"./index-77f80162.js";const g=[new e("project-7","2D OpenGL engine","img/projects/project-6-icon.png",`
     <div class="paragraph">
       <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
       <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
@@ -22,7 +22,7 @@ import{P as e,a as o}from"./ProjectData-f55bc6bf.js";import{d as r,_ as i,h as n
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
           <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
         </div>
-    `,"#c10606"),new e("project-8","Drew Blood","img/projects/project-7-icon.png",`
+    `,"#c10606"),new e("project-8","DirectX 11 Engine","img/projects/project-7-icon.png",`
     <div class="paragraph">
                 <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
                 <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@karolina-grabowska">Karolina Grabowska</a>.
@@ -46,7 +46,7 @@ import{P as e,a as o}from"./ProjectData-f55bc6bf.js";import{d as r,_ as i,h as n
 
             <div class="paragraph center">
                 <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
-            </div>`,"#1ca1e2"),new e("project-9","The Art of Walking","img/projects/project-8-icon.png",`
+            </div>`,"#1ca1e2"),new e("project-9","Vulkan Renderer (WIP)","img/projects/project-8-icon.png",`
     <div class="paragraph">
                 <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
             </div>
@@ -74,4 +74,4 @@ import{P as e,a as o}from"./ProjectData-f55bc6bf.js";import{d as r,_ as i,h as n
             <div class="paragraph center">
                 <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
                 <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-            </div>`)],h=r({name:"EngineProjects",components:{ProjectsList:o},data:function(){return{projects:g}}}),f=a("h1",null,"Renderer Projects",-1),d=a("div",{style:{"margin-bottom":"30px"}}," Here you can find some projects that are more focused on the renderer instead of the gameplay. ",-1);function m(t,u,v,w,S,b){const s=n("ProjectsList");return p(),c("div",null,[f,d,l(s,{projects:t.projects},null,8,["projects"])])}const _=i(h,[["render",m]]);export{_ as default};
+            </div>`)],h=r({name:"EngineProjects",components:{ProjectsList:o},data:function(){return{projects:g}}}),d=a("h1",null,"Renderer Projects",-1),f=a("div",{style:{"margin-bottom":"30px"}}," Here you can find some projects that are more focused on the renderer instead of the gameplay. ",-1);function m(t,u,v,w,b,S){const s=n("ProjectsList");return p(),c("div",null,[d,f,l(s,{projects:t.projects},null,8,["projects"])])}const _=i(h,[["render",m]]);export{_ as default};
