@@ -1,4 +1,4 @@
-import{P as e,a as r}from"./ProjectData-b6a7d0fc.js";import{d as s,_ as n,h as i,c,e as l,a as t,o as p}from"./index-5664a943.js";const d=[new e("project-7","2D OpenGL engine","img/projects/project-6-icon.png",`
+import{P as e,a as r}from"./ProjectData-ee5b0af9.js";import{d as s,_ as n,h as i,c,e as l,a as t,o as p}from"./index-a45d95e8.js";const d=[new e("project-7","2D OpenGL engine","img/projects/project-6-icon.png",`
     <div class="paragraph">
       <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
       <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
