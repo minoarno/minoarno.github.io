@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-ee5b0af9.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-a45d95e8.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
+import{P as e,a as o}from"./ProjectData-cdee6204.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-872cec1c.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
     <div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games aswel as "War For The Overworld" but with a focus oh VR.<br/>
@@ -51,7 +51,7 @@ import{P as e,a as o}from"./ProjectData-ee5b0af9.js";import{d as i,_ as s,h as n
         It taught me how to work in a professional team compared to the group projects and how to maintain a project over a couple of years.<br/>
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/URFq4KwWioQ" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
@@ -68,27 +68,31 @@ import{P as e,a as o}from"./ProjectData-ee5b0af9.js";import{d as i,_ as s,h as n
         I refactored it so that we could use more different colors for our terrain tiles but also that they all would have this jagged line no matter the combination.<br/>
         </ul>
     </div>
+
+    <img src="/img/projects/deisim-biome.png" style="display: block; margin: auto;" alt="Photo of biome blending and coast manager"/>
+
     </div>
-    `,"#4ba4e3"),new e("project-3","Landmass Inspired Terrain Tool","img/projects/project-3-icon.png",`
+    `,"#4ba4e3"),new e("project-3","Landmass Inspired Terrain Tool","img/projects/landmass-display.png",`
     <div class="paragraph">
         <strong>Landmass</strong> is a tool for Unreal that allows for shaping terrain using splines and perlin noise.<br/>
         In my paper I am explaining how I try to recreate mountain ranges using splines, generating floodmaps and octaves.</br> 
     </div>
 
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/UZ7Kp2-77CE" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <img src="/img/projects/landmass-distancefield.png" style="display: block; margin: auto;" alt="Distance Field"/>
+
+    <div style="margin-top:20px; margin-bottom:20px;">
+        <a class="download-link" href="/papers/GW_LandMass_Paper_EN.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download resume as PDF 🇬🇧</a>
+        <div style="clear:both"></div>
     </div>
 
     <div class="paragraph center">
 
     </div>
-    `,"#383838"),new e("project-4","Banana Wars","img/projects/banana-wars.jpg",`
+    `,"#708496"),new e("project-4","Banana Wars","img/projects/banana-wars.jpg",`
     <div class="paragraph">
     <strong>Banana Wars</strong> is a small couch co-op game where the goal is to gain as many bananas as possible.<br/>
 
@@ -106,21 +110,29 @@ import{P as e,a as o}from"./ProjectData-ee5b0af9.js";import{d as i,_ as s,h as n
 
     <div class="paragraph center">
     </div>
-    `,"#e80fb7"),new e("project-5","Zombie Survivor AI","img/projects/project-5-icon.png",`
+    `,"#e80fb7"),new e("project-5","Zombie Survivor AI","img/projects/zombie-survivor.png",`
     <div class="paragraph">
         <strong>Zombie Survivor AI</strong> is a game where we needed to write an AI that would play the game for us using code injection.<br/>
         
     </div>
 
     <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/C8MBB69VfP0" frameborder="0" allowfullscreen></iframe>
     </div>
-    `,"#e48246"),new e("project-6","Wheelchair Simulator","img/projects/project-5-icon.png",`
+
+    <div class="paragraph center">
+    </div>
+    `,"#e48246"),new e("project-6","Wheelchair Simulator","img/projects/vanilla.jpg",`
     <div class="paragraph">
         <strong>Vanilla, Wheelchair Simulator</strong> is a school project where we worked together with <strong>UZ Ghent</strong> to create a VR game that mimics an electronic wheelchair.<br/>
         This project was a colaboration with the patients and the specialist.</br>
         The goal was to make a training simulation for people that are paraplegic or tetraplegic and would require an electronic wheelchair for their daily lives.<br/>
     </div>
     
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/a2FW9JjHKNA" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <div class="paragraph">
         My contributions include but are not limited to:
         <ul>
@@ -129,13 +141,15 @@ import{P as e,a as o}from"./ProjectData-ee5b0af9.js";import{d as i,_ as s,h as n
         <br/>
         <li>Collecting Patient Data</li>
         The specialists wanted to collect data such as:
-        <ul> How long does it take to finish a parcour compared to last time?</ul>
-        <ul> How often are they looking at the joystick?</ul>
-        <ul> How many times do they bump into a wall/object while driving?</ul>
+        <ul> 
+            <li>How long does it take to finish a parcour compared to last time?</li>
+            <li> How often are they looking at the joystick?</li>
+            <li> How many times do they bump into a wall/object while driving?</li>
+        </ul>
         All of this data was saved into an excel file for easy access for the specialists.<br/>
         <li>URP Shaders</li>
         I also learned how to use HLSL and GLSL in Unity's URP.<br/>
         How to work with the necessary buffers and how to utilize property blocks.</br>
         </ul>
     </div>
-    `,"#ada99c")],m=i({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),u=a("h1",null,"Game Projects",-1),p=a("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function g(t,w,b,f,v,y){const r=n("ProjectsList");return c(),l("div",null,[u,p,d(r,{projects:t.projects},null,8,["projects"])])}const I=s(m,[["render",g]]);export{I as default};
+    `,"#cb8300")],m=i({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),p=a("h1",null,"Game Projects",-1),u=a("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function g(t,w,b,f,v,y){const r=n("ProjectsList");return c(),l("div",null,[p,u,d(r,{projects:t.projects},null,8,["projects"])])}const I=s(m,[["render",g]]);export{I as default};
