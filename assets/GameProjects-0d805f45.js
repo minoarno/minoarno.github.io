@@ -1,7 +1,7 @@
-import{P as e,a as o}from"./ProjectData-cdee6204.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-872cec1c.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
+import{P as e,a as o}from"./ProjectData-cc71cb55.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-72b94fc7.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
     <div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
-     It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games aswel as "War For The Overworld" but with a focus oh VR.<br/>
+     It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a focus oh VR.<br/>
      I worked on it from December 2022 till March 2025 from start to finish.<br/>
      The game taught me alot about code structure, file structure and planning a whole code base from scratch.<br/>
      Also was it sometimes quite challenging to make shaders or (graphics) optimizations to suit the hardware limitations of the VR Quest 2 on standalone.<br/>  
@@ -74,16 +74,18 @@ import{P as e,a as o}from"./ProjectData-cdee6204.js";import{d as i,_ as s,h as n
     </div>
     `,"#4ba4e3"),new e("project-3","Landmass Inspired Terrain Tool","img/projects/landmass-display.png",`
     <div class="paragraph">
+        This project was made alongside my paper as my graduation work for DAE between October 2021 until January 2022.</br>
         <strong>Landmass</strong> is a tool for Unreal that allows for shaping terrain using splines and perlin noise.<br/>
-        In my paper I am explaining how I try to recreate mountain ranges using splines, generating floodmaps and octaves.</br> 
+        In my paper I am explaining how I try to recreate mountain ranges using splines, generating floodmaps and octaves.</br>
     </div>
 
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/UZ7Kp2-77CE" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <img src="/img/projects/landmass-distancefield.png" style="display: block; margin: auto;" alt="Distance Field"/>
-
+    <div class="paragraph">
+        If you would like to have a read of my paper you can download it on the link below.</br>
+    </div>
     <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="/papers/GW_LandMass_Paper_EN.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download resume as PDF 🇬🇧</a>
         <div style="clear:both"></div>
@@ -94,34 +96,30 @@ import{P as e,a as o}from"./ProjectData-cdee6204.js";import{d as i,_ as s,h as n
     </div>
     `,"#708496"),new e("project-4","Banana Wars","img/projects/banana-wars.jpg",`
     <div class="paragraph">
-    <strong>Banana Wars</strong> is a small couch co-op game where the goal is to gain as many bananas as possible.<br/>
+        <strong>Banana Wars</strong> is a small chaotic couch co-op game where the goal is to gain as many bananas as possible.<br/>
+        The goal of the project was to make a game in groups of 4 during a single semester while only being allowed 4 hours to work on each week.<br/>
+        This gave us a good sense of deadlines and teaching us how to plan a project using <a href="https://hacknplan.com/" target="_blank">hacknplan</a>.
+        <div class="paragraph center">
+            <iframe class="youtube" src="https://www.youtube.com/embed/Jd1Z2E_hLIM " frameborder="0" allowfullscreen></iframe>
+        </div>
 
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
+        The game did so well in fact that we were finalists for "Rookie Of The Year" in 2020 according to The Rookies.
+        
+        <a href="https://www.therookies.co/entries/5001" target="_blank">Rookies Entry</a>
+        <a href="https://liamvb.itch.io/banana-wars" target="_blank">itch.io page</a>     
     </div>
     `,"#e80fb7"),new e("project-5","Zombie Survivor AI","img/projects/zombie-survivor.png",`
     <div class="paragraph">
         <strong>Zombie Survivor AI</strong> is a game where we needed to write an AI that would play the game for us using code injection.<br/>
-        
     </div>
 
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/C8MBB69VfP0" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div class="paragraph center">
-    </div>
+    Here you can see the result of the thought process of the player AI.<br/>
+
+    <img :src="/img/projects/zombie-survivor-behavior.jpg"/>
     `,"#e48246"),new e("project-6","Wheelchair Simulator","img/projects/vanilla.jpg",`
     <div class="paragraph">
         <strong>Vanilla, Wheelchair Simulator</strong> is a school project where we worked together with <strong>UZ Ghent</strong> to create a VR game that mimics an electronic wheelchair.<br/>
@@ -152,4 +150,4 @@ import{P as e,a as o}from"./ProjectData-cdee6204.js";import{d as i,_ as s,h as n
         How to work with the necessary buffers and how to utilize property blocks.</br>
         </ul>
     </div>
-    `,"#cb8300")],m=i({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),p=a("h1",null,"Game Projects",-1),u=a("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function g(t,w,b,f,v,y){const r=n("ProjectsList");return c(),l("div",null,[p,u,d(r,{projects:t.projects},null,8,["projects"])])}const I=s(m,[["render",g]]);export{I as default};
+    `,"#cb8300")],m=i({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),p=a("h1",null,"Game Projects",-1),g=a("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(t,w,b,f,v,y){const r=n("ProjectsList");return c(),l("div",null,[p,g,d(r,{projects:t.projects},null,8,["projects"])])}const I=s(m,[["render",u]]);export{I as default};
