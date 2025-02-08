@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-cc71cb55.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-72b94fc7.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
+import{P as e,a as o}from"./ProjectData-11a26591.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-83bc6005.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
     <div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a focus oh VR.<br/>
@@ -110,13 +110,17 @@ import{P as e,a as o}from"./ProjectData-cc71cb55.js";import{d as i,_ as s,h as n
     </div>
     `,"#e80fb7"),new e("project-5","Zombie Survivor AI","img/projects/zombie-survivor.png",`
     <div class="paragraph">
-        <strong>Zombie Survivor AI</strong> is a game where we needed to write an AI that would play the game for us using code injection.<br/>
+        <strong>Zombie Survivor AI</strong> is a game where I needed to write an AI that would play the game for us using code injection.<br/>
     </div>
 
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/C8MBB69VfP0" frameborder="0" allowfullscreen></iframe>
+    <div>
+        <br/>
+    <div class="paragraph center">
+        <img src="/img/projects/zombie-survivor-behavior.png"/> 
     </div>
-
+    <br/>
     Here you can see the result of the thought process of the player AI.<br/>
 
     <img :src="/img/projects/zombie-survivor-behavior.jpg"/>
