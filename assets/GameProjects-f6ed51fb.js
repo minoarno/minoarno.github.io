@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-11a26591.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-83bc6005.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
+import{P as e,a as o}from"./ProjectData-e6bb08f3.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-65d81668.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
     <div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a focus oh VR.<br/>
@@ -115,9 +115,7 @@ import{P as e,a as o}from"./ProjectData-11a26591.js";import{d as i,_ as s,h as n
 
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/C8MBB69VfP0" frameborder="0" allowfullscreen></iframe>
-    <div>
         <br/>
-    <div class="paragraph center">
         <img src="/img/projects/zombie-survivor-behavior.png"/> 
     </div>
     <br/>
