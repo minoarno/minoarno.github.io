@@ -1,7 +1,7 @@
-import{P as e,a as o}from"./ProjectData-e6bb08f3.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-65d81668.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
+import{P as e,a as o}from"./ProjectData-164534b6.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-8c61db54.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
     <div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
-     It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a focus oh VR.<br/>
+     It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a focus on VR.<br/>
      I worked on it from December 2022 till March 2025 from start to finish.<br/>
      The game taught me alot about code structure, file structure and planning a whole code base from scratch.<br/>
      Also was it sometimes quite challenging to make shaders or (graphics) optimizations to suit the hardware limitations of the VR Quest 2 on standalone.<br/>  
