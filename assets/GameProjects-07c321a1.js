@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-164534b6.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-8c61db54.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
+import{P as e,a as o}from"./ProjectData-d6e2aa18.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-269d0321.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
     <div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a focus on VR.<br/>
@@ -60,12 +60,15 @@ import{P as e,a as o}from"./ProjectData-164534b6.js";import{d as i,_ as s,h as n
         <li>Vehicle Behavior</li>
         I was in charge of designing and implementing how ships, airships and spaceshuttles would move through the world.<br/>
         Whether they go from port to port to trade or pirates hunting and plundering traders. <br/>
+        <br/>
         <li>Coast Manager</li>
         To add some more variety between coasts and to make a difference between dirt, sand and docks, we added the coast manager.<br/>
         Where we made use of scriptable objects to make it easier to maintain.<br/>
+        <br/>
         <li>Terrain Blending Shader</li>
         The old blending was made to only supported blending between snow, grass and sand.<br/>
         I refactored it so that we could use more different colors for our terrain tiles but also that they all would have this jagged line no matter the combination.<br/>
+        <br/>
         </ul>
     </div>
 
@@ -142,7 +145,7 @@ import{P as e,a as o}from"./ProjectData-164534b6.js";import{d as i,_ as s,h as n
         <li>Collecting Patient Data</li>
         The specialists wanted to collect data such as:
         <ul> 
-            <li>How long does it take to finish a parcour compared to last time?</li>
+            <li> How long does it take to finish a parcour compared to last time?</li>
             <li> How often are they looking at the joystick?</li>
             <li> How many times do they bump into a wall/object while driving?</li>
         </ul>
