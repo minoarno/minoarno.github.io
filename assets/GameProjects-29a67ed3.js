@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-e1d4d554.js";import{d as s,_ as i,h as n,c as l,e as d,a,o as c}from"./index-463a1b7f.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-770f5efb.js";import{d as s,_ as i,h as n,c as l,e as d,a,o as c}from"./index-a608218d.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -11,7 +11,7 @@ import{P as e,a as o}from"./ProjectData-e1d4d554.js";import{d as s,_ as i,h as n
      </ul>
      <br/>
      The game required me to be part of designing the code structure, file structure and planning a whole code base from scratch.<br/>
-      it was quite challenging to make shaders or (graphics) optimizations to suit the hardware limitations of the VR Quest 2 on standalone.<br/>  
+     It was quite challenging to make shaders or (graphics) optimizations to suit the hardware limitations of the VR Quest 2 on standalone.<br/>  
      In this article I will mainly talk about some of the challenges and some of the things I enjoyed when working on <strong>Underworld Overseer</strong>.<br/>
      </div>
      
@@ -22,30 +22,30 @@ import{P as e,a as o}from"./ProjectData-e1d4d554.js";import{d as s,_ as i,h as n
     <div class="paragraph">
         My contributions to the project were mostly involving:
         <ul>
-        <li>Code Structure</li>
-        Since resources were stretched a little thin at times I was mostly in charge of implementing the gameplay loop after discussing it with the lead programmer.<br/>
+        <li><strong>Code Structure</strong></li>
+        Since resources were stretched a little thin at times, I was mostly in charge of implementing the gameplay loop after discussing it with the lead programmer.<br/>
         Here I learned that naming variables or methods isn't my strong suit and that asking another programmer's opinion about a name prevents misunderstandings immensely down the line.<br/>
         <br/>
-        <li>Unit Behavior</li>
+        <li><strong>Unit Behavior</strong></li>
         Most of the time I would be tweaking the behavior of the creatures.<br/>
         Whether it would be adding a new mechanic such as eating mandrakes or adding a new enemy behavior.<br/>
         We made use of UML to document how the classes would interact with each other as well as documenting how the enemy and unit AI would function.<br/>
         <br/>
-        <li>Optimizing For Quest 2</li>
+        <li><strong>Optimizing For Quest 2</strong></li>
         One of the problems with VR is the limited capabilities of the hardware you are working with compared to a computer or console.<br/>
         Slight changes in the renderer would make it so that using the depth buffer was not possible for example.<br/>
         It also means that the amount of drawcalls needed to be decreased and that detecting nearby creatures had to be done with performance in mind.<br/>
         <br/>
-        <li>Custom Fog</li>
+        <li><strong>Custom Fog</strong></li>
         Another issue is that the culling of objects far away was not only quite noticable but the fog in unity appears to be rectangular.<br/>
-        To fix this I made a subshader that implements my own variant of fog.<br/>
+        To fix this I made a <strong>subshader</strong> that implements my own variant of fog.<br/>
         We really wanted a fog that would start at a variable range which would get exponentially thicker while getting closer to another variable.<br/>
         These values could be tweaked and changed at runtime, allowing us to test quicker or limit the render distance for weaker hardware with less popping of meshes.<br/>
         <br/>
-        <li>Vertex Animation Texture</li>
+        <li><strong>Vertex Animation Texture</strong></li>
         The amount of draw calls would still limit us to do certain things as each animator is it's own draw call.<br/>
-        To allow us some simple animations we are making use of a <strong>Vertex Animation Texture</strong> where we use the texture to store vertex offsets.<br/>
-        This allows us to turn a bunch of different simple animations into a single material and draw call.</br>   
+        To allow us some simple animations, we are making use of a <strong>Vertex Animation Texture</strong>, where we use the texture to store vertex offsets.<br/>
+        This allows us to turn a bunch of different simple animations into a single material and draw call.</br>
         </ul>
     </div>
     `,"#610917"),new e("project-2","Deisim","img/projects/deisim.jpg",`
