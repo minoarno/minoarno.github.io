@@ -1,15 +1,17 @@
-import{P as e,a as o}from"./ProjectData-ebd90bae.js";import{d as s,_ as i,h as n,c as l,e as d,a,o as c}from"./index-0f82bafd.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-ca7d6363.js";import{d as s,_ as i,h as n,c as l,e as d,a,o as c}from"./index-da0e03eb.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
-     To communicate clearly with the rest of the team we adopted an agile sprint planning using <strong>Notion</strong>.<br/>
+     To communicate clearly in the team, we adopted an agile sprint planning style using <strong>Notion</strong>.<br/>
      It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a <strong>focus on VR</strong>.<br/>
-     The game was published on October 31 2024 on Meta and Steam: 
-     <a href="https://www.meta.com/en-gb/experiences/underworld-overseer/7249464208476495/" target="_blank">Underworld Overseer on Meta</a><br/> 
-     <a href="https://store.steampowered.com/app/2909910/Underworld_Overseer/" target="_blank">Underworld Overseer on Steam</a><br/>
+     The game was published on October 31 2024 on:
+     <ul>
+     <li><a href="https://www.meta.com/en-gb/experiences/underworld-overseer/7249464208476495/" target="_blank">Underworld Overseer on Meta</a><br/></li>   
+     <li><a href="https://store.steampowered.com/app/2909910/Underworld_Overseer/" target="_blank">Underworld Overseer on Steam</a><br/></li>
+     </ul>
      <br/>
      The game required me to be part of designing the code structure, file structure and planning a whole code base from scratch.<br/>
-     Also was it sometimes quite challenging to make shaders or (graphics) optimizations to suit the hardware limitations of the VR Quest 2 on standalone.<br/>  
+      it was quite challenging to make shaders or (graphics) optimizations to suit the hardware limitations of the VR Quest 2 on standalone.<br/>  
      In this article I will mainly talk about some of the challenges and some of the things I enjoyed when working on <strong>Underworld Overseer</strong>.<br/>
      </div>
      
@@ -46,13 +48,9 @@ import{P as e,a as o}from"./ProjectData-ebd90bae.js";import{d as s,_ as i,h as n
         This allows us to turn a bunch of different simple animations into a single material and draw call.</br>   
         </ul>
     </div>
-
-    <div class="paragraph">
-        <strong>Underworld Overseer</strong> was released in October 2024 and received an update 2025.
-    </div>
     `,"#610917"),new e("project-2","Deisim","img/projects/deisim.jpg",`
     <div class="paragraph">
-        <strong>Deisim</strong> is the game that just released when I started my internship.<br/>
+        <strong>Deisim</strong> is the game that just released when I started my internship in September 2022.<br/>
         It is a God simulator in <strong>VR</strong> made in <strong>Unity</strong> that has been in development since 2016.<br/>
         We made use of <strong>GitKraken</strong> for version control at first and merged the project to <strong>Plastic SCM</strong> later.
         When it comes to t 
