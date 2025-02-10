@@ -1,11 +1,16 @@
-import{P as e,a as o}from"./ProjectData-d6e2aa18.js";import{d as i,_ as s,h as n,c as l,e as d,a,o as c}from"./index-269d0321.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`
-    <div class="paragraph">
+import{P as e,a as o}from"./ProjectData-ebd90bae.js";import{d as s,_ as i,h as n,c as l,e as d,a,o as c}from"./index-0f82bafd.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
-     It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a focus on VR.<br/>
-     I worked on it from December 2022 till March 2025 from start to finish.<br/>
-     The game taught me alot about code structure, file structure and planning a whole code base from scratch.<br/>
+     I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
+     The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
+     To communicate clearly with the rest of the team we adopted an agile sprint planning using <strong>Notion</strong>.<br/>
+     It is a dungeon managing game where we took some inspiration from both the old "Dungeon Keeper" games as well as "War For The Overworld" but with a <strong>focus on VR</strong>.<br/>
+     The game was published on October 31 2024 on Meta and Steam: 
+     <a href="https://www.meta.com/en-gb/experiences/underworld-overseer/7249464208476495/" target="_blank">Underworld Overseer on Meta</a><br/> 
+     <a href="https://store.steampowered.com/app/2909910/Underworld_Overseer/" target="_blank">Underworld Overseer on Steam</a><br/>
+     <br/>
+     The game required me to be part of designing the code structure, file structure and planning a whole code base from scratch.<br/>
      Also was it sometimes quite challenging to make shaders or (graphics) optimizations to suit the hardware limitations of the VR Quest 2 on standalone.<br/>  
-     In this article I will mainly talk about some of the challenges and some of the things I enjoyed when working on <strong>Underworld Overseer</strong>.
+     In this article I will mainly talk about some of the challenges and some of the things I enjoyed when working on <strong>Underworld Overseer</strong>.<br/>
      </div>
      
     <div class="paragraph center">
@@ -48,7 +53,10 @@ import{P as e,a as o}from"./ProjectData-d6e2aa18.js";import{d as i,_ as s,h as n
     `,"#610917"),new e("project-2","Deisim","img/projects/deisim.jpg",`
     <div class="paragraph">
         <strong>Deisim</strong> is the game that just released when I started my internship.<br/>
-        It taught me how to work in a professional team compared to the group projects and how to maintain a project over a couple of years.<br/>
+        It is a God simulator in <strong>VR</strong> made in <strong>Unity</strong> that has been in development since 2016.<br/>
+        We made use of <strong>GitKraken</strong> for version control at first and merged the project to <strong>Plastic SCM</strong> later.
+        When it comes to t 
+        My job was primarily to maintain the existing code base, add new features for future updates and refactoring where needed to allow for more options.<br/> 
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/URFq4KwWioQ" frameborder="0" allowfullscreen></iframe>
@@ -145,9 +153,9 @@ import{P as e,a as o}from"./ProjectData-d6e2aa18.js";import{d as i,_ as s,h as n
         <li>Collecting Patient Data</li>
         The specialists wanted to collect data such as:
         <ul> 
-            <li> How long does it take to finish a parcour compared to last time?</li>
-            <li> How often are they looking at the joystick?</li>
-            <li> How many times do they bump into a wall/object while driving?</li>
+            <li> How long does it take to finish a parcour compared to last time?</li><br/>
+            <li> How often are they looking at the joystick?</li><br/>
+            <li> How many times do they bump into a wall/object while driving?</li><br/>
         </ul>
         All of this data was saved into an excel file for easy access for the specialists.<br/>
         <li>URP Shaders</li>
@@ -155,4 +163,4 @@ import{P as e,a as o}from"./ProjectData-d6e2aa18.js";import{d as i,_ as s,h as n
         How to work with the necessary buffers and how to utilize property blocks.</br>
         </ul>
     </div>
-    `,"#cb8300")],m=i({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),p=a("h1",null,"Game Projects",-1),g=a("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(t,w,b,f,v,y){const r=n("ProjectsList");return c(),l("div",null,[p,g,d(r,{projects:t.projects},null,8,["projects"])])}const I=s(m,[["render",u]]);export{I as default};
+    `,"#cb8300")],m=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),g=a("h1",null,"Game Projects",-1),p=a("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(t,w,b,f,v,y){const r=n("ProjectsList");return c(),l("div",null,[g,p,d(r,{projects:t.projects},null,8,["projects"])])}const I=i(m,[["render",u]]);export{I as default};
