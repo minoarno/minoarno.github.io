@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-65a1e7c7.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as c}from"./index-43daab0d.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-e18a207d.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as c}from"./index-89029201.js";const g=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -91,7 +91,8 @@ import{P as e,a as o}from"./ProjectData-65a1e7c7.js";import{d as s,_ as n,h as i
     `,"#4ba4e3"),new e("project-3","Landmass Inspired Terrain Tool","img/projects/landmass-display.png",`
     <div class="paragraph">
         This project was made alongside my paper as my graduation work for DAE between October 2021 until January 2022.</br>
-        <strong>Landmass</strong> is a tool for Unreal that allows for shaping terrain using splines and perlin noise.<br/>
+        <strong>Landmass</strong> is a tool for <strong>Unreal</strong> that allows for shaping terrain using splines and perlin noise.<br/>
+        My graduation work was to make a <strong>Landmass inspired terrain tool</strong> for in <strong>Unity</strong>.
         In my paper I am explaining how I try to recreate mountain ranges using splines, generating floodmaps and octaves.</br>
     </div>
 
@@ -113,8 +114,10 @@ import{P as e,a as o}from"./ProjectData-65a1e7c7.js";import{d as s,_ as n,h as i
     `,"#708496"),new e("project-4","Banana Wars","img/projects/banana-wars.jpg",`
     <div class="paragraph">
         <strong>Banana Wars</strong> is a small chaotic couch co-op game where the goal is to gain as many bananas as possible.<br/>
-        The goal of the project was to make a game in groups of 4 during a single semester while only being allowed 4 hours to work on each week.<br/>
-        This gave us a good sense of deadlines and teaching us how to plan a project using <a href="https://hacknplan.com/" target="_blank">hacknplan</a>.
+        The project is made in <strong>Unity</strong> with 3 other people between February 2020 and June 2020.<br/>
+        We used <strong>Perforce</strong> for source control and <strong>Hacknplan</strong> for planning.<br/>
+        It feels more like a gamejam game to the limited amount of time we could spend on development each week.<br/>
+
         <div class="paragraph center">
             <iframe class="youtube" src="https://www.youtube.com/embed/Jd1Z2E_hLIM " frameborder="0" allowfullscreen></iframe>
         </div>
@@ -127,6 +130,8 @@ import{P as e,a as o}from"./ProjectData-65a1e7c7.js";import{d as s,_ as n,h as i
     `,"#e80fb7"),new e("project-5","Zombie Survivor AI","img/projects/zombie-survivor.png",`
     <div class="paragraph">
         <strong>Zombie Survivor AI</strong> is a game where I needed to write an AI that would play the game for us using code injection.<br/>
+        The AI is written in a <strong>custom framework in C++</strong> making use of statemachines and blackboards.
+        For version control I made use of <strong>Github</strong>.
     </div>
 
     <div class="paragraph center">
@@ -173,4 +178,4 @@ import{P as e,a as o}from"./ProjectData-65a1e7c7.js";import{d as s,_ as n,h as i
         Working with the necessary buffers and utilizing property blocks where needed.</br>
         </ul>
     </div>
-    `,"#cb8300")],g=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(a,w,b,f,v,y){const r=i("ProjectsList");return c(),l("div",null,[m,p,d(r,{projects:a.projects},null,8,["projects"])])}const I=n(g,[["render",u]]);export{I as default};
+    `,"#cb8300")],h=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:g}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(r,b,w,f,v,y){const a=i("ProjectsList");return c(),l("div",null,[m,p,d(a,{projects:r.projects},null,8,["projects"])])}const I=n(h,[["render",u]]);export{I as default};
