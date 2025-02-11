@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-770f5efb.js";import{d as s,_ as i,h as n,c as l,e as d,a,o as c}from"./index-a608218d.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-65a1e7c7.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as c}from"./index-43daab0d.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -52,9 +52,16 @@ import{P as e,a as o}from"./ProjectData-770f5efb.js";import{d as s,_ as i,h as n
     <div class="paragraph">
         <strong>Deisim</strong> is the game that just released when I started my internship in September 2022.<br/>
         It is a God simulator in <strong>VR</strong> made in <strong>Unity</strong> that has been in development since 2016.<br/>
-        We made use of <strong>GitKraken</strong> for version control at first and merged the project to <strong>Plastic SCM</strong> later.
-        When it comes to t 
-        My job was primarily to maintain the existing code base, add new features for future updates and refactoring where needed to allow for more options.<br/> 
+        We made use of <strong>GitKraken</strong> for version control at first and merged the project to <strong>Plastic SCM</strong> later.<br/>
+        For communication we tried a variety of agile planning tools such as <strong>Codecks</strong> and eventually <strong>Notion</strong>.<br/>
+        The game released on:
+        <ul>
+            <li><a href="https://www.meta.com/en-gb/experiences/deisim/3526702020710931/" target="_blank">Deisim on Meta</a><br/></li>
+            <li><a href="https://www.picoxr.com/global/games/deisim" target="_blank">Deisim on Pico</a><br/></li>   
+            <li><a href="https://store.steampowered.com/app/525680/Deisim/" target="_blank">Deisim on Steam</a><br/></li>
+        </ul>
+
+        My job was primarily to maintain the existing code base, add new features for future updates and refactoring where needed to allow for more options.<br/>
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/URFq4KwWioQ" frameborder="0" allowfullscreen></iframe>
@@ -63,15 +70,15 @@ import{P as e,a as o}from"./ProjectData-770f5efb.js";import{d as s,_ as i,h as n
     <div class="paragraph">
         Some of the features I've contributed to:
         <ul>
-        <li>Vehicle Behavior</li>
+        <li><strong>Vehicle Behavior</strong></li>
         I was in charge of designing and implementing how ships, airships and spaceshuttles would move through the world.<br/>
         Whether they go from port to port to trade or pirates hunting and plundering traders. <br/>
         <br/>
-        <li>Coast Manager</li>
+        <li><strong>Coast Manager</strong></li>
         To add some more variety between coasts and to make a difference between dirt, sand and docks, we added the coast manager.<br/>
         Where we made use of scriptable objects to make it easier to maintain.<br/>
         <br/>
-        <li>Terrain Blending Shader</li>
+        <li><strong>Terrain Blending Shader</strong></li>
         The old blending was made to only supported blending between snow, grass and sand.<br/>
         I refactored it so that we could use more different colors for our terrain tiles but also that they all would have this jagged line no matter the combination.<br/>
         <br/>
@@ -133,8 +140,12 @@ import{P as e,a as o}from"./ProjectData-770f5efb.js";import{d as s,_ as i,h as n
     <img :src="/img/projects/zombie-survivor-behavior.jpg"/>
     `,"#e48246"),new e("project-6","Wheelchair Simulator","img/projects/vanilla.jpg",`
     <div class="paragraph">
-        <strong>Vanilla, Wheelchair Simulator</strong> is a school project where we worked together with <strong>UZ Ghent</strong> to create a VR game that mimics an electronic wheelchair.<br/>
-        This project was a colaboration with the patients and the specialist.</br>
+        <strong>Vanilla, Wheelchair Simulator</strong> is a school project where we worked together with <strong>UZ Ghent</strong> to create a <strong>VR</strong> game that mimics an electronic wheelchair.<br/>
+        It's made in <strong>Unity</strong> and we used <strong>Perforce</strong> for version control.<br/>
+        The development team consisted of 6 students from <strong>DAE</strong>, where the teachers would supervise as leads twice a week.</br>
+        <br/>
+        This project was a collaboration with the patients and the specialists.</br>
+        We would then have to adjust the game based of the biweekly feedback.</br>
         The goal was to make a training simulation for people that are paraplegic or tetraplegic and would require an electronic wheelchair for their daily lives.<br/>
     </div>
     
@@ -145,20 +156,21 @@ import{P as e,a as o}from"./ProjectData-770f5efb.js";import{d as s,_ as i,h as n
     <div class="paragraph">
         My contributions include but are not limited to:
         <ul>
-        <li>Realistic Wheelchair Movement</li>
-        The specialists and patients tested the controls to make sure that the feel felt authentic. 
+        <li><strong>Realistic Wheelchair Movement</strong></li>
+        The specialists and patients tested the controls to make sure that the feel felt authentic.<br/>
         <br/>
-        <li>Collecting Patient Data</li>
+        <li><strong>Collecting Patient Data</strong></li>
         The specialists wanted to collect data such as:
         <ul> 
-            <li> How long does it take to finish a parcour compared to last time?</li><br/>
-            <li> How often are they looking at the joystick?</li><br/>
-            <li> How many times do they bump into a wall/object while driving?</li><br/>
+            <li> How long does it take to finish a set route compared to last time?</li>
+            <li> How often are they looking at the joystick?</li>
+            <li> How many times do they bump into a wall/object while driving?</li>
         </ul>
         All of this data was saved into an excel file for easy access for the specialists.<br/>
-        <li>URP Shaders</li>
-        I also learned how to use HLSL and GLSL in Unity's URP.<br/>
-        How to work with the necessary buffers and how to utilize property blocks.</br>
+        <br/>
+        <li><strong>URP Shaders</strong></li>
+        Sometimes I had to adapt the shaders inside of <strong>HLSL</strong> and <strong>GLSL</strong> in <strong>Unity's URP</strong> because shadergraph was lacking a node.<br/>
+        Working with the necessary buffers and utilizing property blocks where needed.</br>
         </ul>
     </div>
-    `,"#cb8300")],m=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),g=a("h1",null,"Game Projects",-1),p=a("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(t,w,b,f,v,y){const r=n("ProjectsList");return c(),l("div",null,[g,p,d(r,{projects:t.projects},null,8,["projects"])])}const I=i(m,[["render",u]]);export{I as default};
+    `,"#cb8300")],g=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(a,w,b,f,v,y){const r=i("ProjectsList");return c(),l("div",null,[m,p,d(r,{projects:a.projects},null,8,["projects"])])}const I=n(g,[["render",u]]);export{I as default};
