@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-0f389067.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as g}from"./index-3ba43020.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-8a56f9bc.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as g}from"./index-69320035.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -30,6 +30,7 @@ import{P as e,a as o}from"./ProjectData-0f389067.js";import{d as s,_ as n,h as i
         Most of the time I would be tweaking the behavior of the creatures.<br/>
         Whether it would be adding a new mechanic such as eating mandrakes or adding a new enemy behavior.<br/>
         We made use of UML to document how the classes would interact with each other as well as documenting how the enemy and unit AI would function.<br/>
+        <img src="/img/projects/ai-unit.png" style="display: block; margin: auto;" alt="AI behavior diagram of the player's controllable units"/>
         <br/>
         <li><strong>Optimizing For Quest 2</strong></li>
         One of the problems with VR is the limited capabilities of the hardware you are working with compared to a computer or console.<br/>
