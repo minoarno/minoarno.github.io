@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-aecb08f7.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as g}from"./index-7d504dac.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-bb75caac.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as g}from"./index-0fc90631.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -31,7 +31,7 @@ import{P as e,a as o}from"./ProjectData-aecb08f7.js";import{d as s,_ as n,h as i
         Whether it would be adding a new mechanic such as eating mandrakes or adding a new enemy behavior.<br/>
         We made use of UML to document how the classes would interact with each other as well as documenting how the enemy and unit AI would function.<br/>
         <div style="margin-top:20px; margin-bottom:20px;">
-        <img src="/img/projects/ai-unit.png" style="display: block; margin: auto;" alt="AI behavior diagram of the player's controllable units"/>
+        <img src="/img/projects/ai-unit.png" style="display: block;" alt="AI behavior diagram of the player's controllable units"/>
         </div>
         <br/>
         <li><strong>Optimizing For Quest 2</strong></li>
