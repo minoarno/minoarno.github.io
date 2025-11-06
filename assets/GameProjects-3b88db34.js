@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-570d117e.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as c}from"./index-c095bf89.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-b0295118.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as c}from"./index-3ad47048.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -112,7 +112,8 @@ import{P as e,a as o}from"./ProjectData-570d117e.js";import{d as s,_ as i,h as n
     </div>
 
     <div class="paragraph">
-        If you would like to have a read of my paper you can download it on the link below.</br>
+        If you would like to read my paper, you can download it on the link below.</br>
+        It also contains code snippets for some parts of the code written for the tool.</br>
     </div>
     <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="/papers/GW_LandMass_Paper_EN.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download resume as PDF 🇬🇧</a>
