@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-b0295118.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as c}from"./index-3ad47048.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-2b8a9661.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as h}from"./index-0edbeb4a.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -20,7 +20,7 @@ import{P as e,a as o}from"./ProjectData-b0295118.js";import{d as s,_ as i,h as n
     </div>
 
     <div class="paragraph">
-        My contributions to the project were mostly involving:
+        My contributions to the project which I found the most interest involve but aren't limited to:
         <ul>
         <li><strong>Code Structure</strong></li>
         Since resources were stretched a little thin at times, I was mostly in charge of implementing the gameplay loop after discussing it with the lead programmer.<br/>
@@ -44,9 +44,12 @@ import{P as e,a as o}from"./ProjectData-b0295118.js";import{d as s,_ as i,h as n
         These values could be tweaked and changed at runtime, allowing us to test quicker or limit the render distance for weaker hardware with less popping of meshes.<br/>
         <br/>
         <li><strong>Vertex Animation Texture</strong></li>
-        The amount of draw calls would still limit us to do certain things as each animator is it's own draw call.<br/>
-        To allow us some simple animations, we are making use of a <strong>Vertex Animation Texture</strong>, where we use the texture to store vertex offsets.<br/>
+        The amount of draw calls would still limit us to do certain things as each skinned mesh has it's own draw call.<br/>
+        To allow us to add some life to the farm or scene in general we wanted to have the mandrakes move instead of being inanimate objects.<br/>
+        To be able to achieve that we are making use of a <strong>Vertex Animation Texture</strong>, where we use the texture to store vertex offsets.<br/>
         This allows us to turn a bunch of different simple animations into a single material and draw call.</br>
+        <img src="/img/projects/vertex-animation-texture-integration.png" style="display: block; margin: auto;" width=90%; height=auto; alt="Code snippet of abstract state machine of the vehicle types"/>
+
         </ul>
     </div>
     `,"#610917"),new e("project-2","Deisim","img/projects/deisim.jpg",`
@@ -82,7 +85,7 @@ import{P as e,a as o}from"./ProjectData-b0295118.js";import{d as s,_ as i,h as n
         To add some more variety between coasts and to make a difference between dirt, sand and docks, we added the coast manager.<br/>
         Where we made use of scriptable objects to make it easier to maintain.<br/> 
         Since the dock selection was a rather repetitive process that needed to be done per civilization I integrated a tool inside the scriptable object where it was possible to decide a dock per town type and tech level.<br/>
-        <img src="/img/projects/dock-collection-tool.png" style="display: block; margin: auto;" width=90%; height=auto; alt="Code snippet of abstract state machine of the vehicle types"/>
+        <img src="/img/projects/dock-collection-tool.png" style="display: block; margin: auto;" width=90%; height=auto; alt="Image of the dock collection with tool options"/>
         <br/>
         <br/>
         <li><strong>Terrain Blending Shader</strong></li>
@@ -195,4 +198,4 @@ import{P as e,a as o}from"./ProjectData-b0295118.js";import{d as s,_ as i,h as n
         Working with the necessary buffers and utilizing property blocks where needed.</br>
         </ul>
     </div>
-    `,"#cb8300")],g=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function b(a,u,w,f,v,y){const r=n("ProjectsList");return c(),l("div",null,[m,p,d(r,{projects:a.projects},null,8,["projects"])])}const I=i(g,[["render",b]]);export{I as default};
+    `,"#cb8300")],g=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:c}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function b(a,u,w,f,v,y){const r=n("ProjectsList");return h(),l("div",null,[m,p,d(r,{projects:a.projects},null,8,["projects"])])}const I=i(g,[["render",b]]);export{I as default};
