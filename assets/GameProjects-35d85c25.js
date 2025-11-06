@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-6f2226a0.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as g}from"./index-40b9830d.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-9effcca0.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as g}from"./index-9887f49d.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -74,6 +74,8 @@ import{P as e,a as o}from"./ProjectData-6f2226a0.js";import{d as s,_ as n,h as i
         <li><strong>Vehicle Behavior</strong></li>
         I was in charge of designing and implementing how ships, airships and spaceshuttles would move through the world.<br/>
         Whether they go from port to port to trade or pirates hunting and plundering traders. <br/>
+    
+        <img src="/img/projects/abstract-vehicle-state.png" width=90%; height=auto; alt="Code snippet of abstract state machine of the vehicle types"/>
         <br/>
         <li><strong>Coast Manager</strong></li>
         To add some more variety between coasts and to make a difference between dirt, sand and docks, we added the coast manager.<br/>
@@ -83,11 +85,13 @@ import{P as e,a as o}from"./ProjectData-6f2226a0.js";import{d as s,_ as n,h as i
         The old blending was made to only supported blending between snow, grass and sand.<br/>
         I refactored it so that we could use more different colors for our terrain tiles but also that they all would have this jagged line no matter the combination.<br/>
         <br/>
+        <img src="/img/projects/deisim-biome.png" style="display: block; margin: auto;" alt="Photo of biome blending and coast manager"/>
         </ul>
     </div>
-
-    <img src="/img/projects/deisim-biome.png" style="display: block; margin: auto;" alt="Photo of biome blending and coast manager"/>
-
+    <img src="/img/projects/terrain-shader-deisim.png" width=90%; height=auto; alt="Code snippet of terrain shader"/>
+    <img src="/img/projects/terrain-blending-deisim.png" width=90%; height=auto; alt="terrain blending image"/>
+    <br/>
+    
     </div>
     `,"#4ba4e3"),new e("project-3","Landmass Inspired Terrain Tool","img/projects/landmass-display.png",`
     <div class="paragraph">
@@ -184,4 +188,4 @@ import{P as e,a as o}from"./ProjectData-6f2226a0.js";import{d as s,_ as n,h as i
         Working with the necessary buffers and utilizing property blocks where needed.</br>
         </ul>
     </div>
-    `,"#cb8300")],h=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:c}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(r,b,w,f,v,y){const a=i("ProjectsList");return g(),l("div",null,[m,p,d(a,{projects:r.projects},null,8,["projects"])])}const I=n(h,[["render",u]]);export{I as default};
+    `,"#cb8300")],c=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(r,b,w,f,v,y){const a=i("ProjectsList");return g(),l("div",null,[m,p,d(a,{projects:r.projects},null,8,["projects"])])}const I=n(c,[["render",u]]);export{I as default};

@@ -1,4 +1,4 @@
-import{P as o,a as s}from"./ProjectData-6f2226a0.js";import{d as a,_ as n,h as i,c,e as d,a as e,o as l}from"./index-40b9830d.js";const p=[new o("project-7","DirectX 11 Engine","img/projects/zelda.png",`
+import{P as o,a as s}from"./ProjectData-9effcca0.js";import{d as a,_ as n,h as i,c,e as d,a as e,o as l}from"./index-9887f49d.js";const p=[new o("project-7","DirectX 11 Engine","img/projects/zelda.png",`
     <div class="paragraph">
                 This project was made for the graphics programming 2 course at <strong>DAE</strong>.</br>
                 For the demonstration of the features of the engine, I made a little student game using assets of "Zelda Wind Waker" from Nintendo.</br>
