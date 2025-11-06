@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-9effcca0.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as g}from"./index-9887f49d.js";const h=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-7665dcb0.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as h}from"./index-dc308a17.js";const g=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -86,10 +86,12 @@ import{P as e,a as o}from"./ProjectData-9effcca0.js";import{d as s,_ as n,h as i
         I refactored it so that we could use more different colors for our terrain tiles but also that they all would have this jagged line no matter the combination.<br/>
         <br/>
         <img src="/img/projects/deisim-biome.png" style="display: block; margin: auto;" alt="Photo of biome blending and coast manager"/>
+        For this I had to write the code in the unity built-in renderpipeline, the masks are used as booleans to decide what is blended and what isn't.
+        <img src="/img/projects/terrain-shader-deisim.png" style="display: block; margin: auto;" width=90%; height=auto; alt="Code snippet of terrain shader"/>
+        To make the blending a bit less straight a special mask was created where I use the different channels to create seperate masks.
+        <img src="/img/projects/terrain-blending-deisim.png" style="display: block; margin: auto;" width=90%; height=auto; alt="terrain blending image"/>
         </ul>
     </div>
-    <img src="/img/projects/terrain-shader-deisim.png" width=90%; height=auto; alt="Code snippet of terrain shader"/>
-    <img src="/img/projects/terrain-blending-deisim.png" width=90%; height=auto; alt="terrain blending image"/>
     <br/>
     
     </div>
@@ -188,4 +190,4 @@ import{P as e,a as o}from"./ProjectData-9effcca0.js";import{d as s,_ as n,h as i
         Working with the necessary buffers and utilizing property blocks where needed.</br>
         </ul>
     </div>
-    `,"#cb8300")],c=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:h}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(r,b,w,f,v,y){const a=i("ProjectsList");return g(),l("div",null,[m,p,d(a,{projects:r.projects},null,8,["projects"])])}const I=n(c,[["render",u]]);export{I as default};
+    `,"#cb8300")],c=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:g}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(a,b,w,f,v,y){const r=i("ProjectsList");return h(),l("div",null,[m,p,d(r,{projects:a.projects},null,8,["projects"])])}const I=n(c,[["render",u]]);export{I as default};
