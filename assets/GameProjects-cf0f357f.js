@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-7665dcb0.js";import{d as s,_ as n,h as i,c as l,e as d,a as t,o as h}from"./index-dc308a17.js";const g=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-b88016cb.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as h}from"./index-19cf90da.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -79,7 +79,9 @@ import{P as e,a as o}from"./ProjectData-7665dcb0.js";import{d as s,_ as n,h as i
         <br/>
         <li><strong>Coast Manager</strong></li>
         To add some more variety between coasts and to make a difference between dirt, sand and docks, we added the coast manager.<br/>
-        Where we made use of scriptable objects to make it easier to maintain.<br/>
+        Where we made use of scriptable objects to make it easier to maintain.<br/> 
+        Since the dock selection was a rather repetitive process that needed to be done per civilization I integrated a tool inside the scriptable object where it was possible to decide a dock per town type and tech level.<br/>
+        <img src="/img/projects/dock-collection-tool.png" width=90%; height=auto; alt="Code snippet of abstract state machine of the vehicle types"/>
         <br/>
         <li><strong>Terrain Blending Shader</strong></li>
         The old blending was made to only supported blending between snow, grass and sand.<br/>
@@ -190,4 +192,4 @@ import{P as e,a as o}from"./ProjectData-7665dcb0.js";import{d as s,_ as n,h as i
         Working with the necessary buffers and utilizing property blocks where needed.</br>
         </ul>
     </div>
-    `,"#cb8300")],c=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:g}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(a,b,w,f,v,y){const r=i("ProjectsList");return h(),l("div",null,[m,p,d(r,{projects:a.projects},null,8,["projects"])])}const I=n(c,[["render",u]]);export{I as default};
+    `,"#cb8300")],g=s({name:"GameProjects",components:{ProjectsList:o},data:function(){return{projects:c}}}),m=t("h1",null,"Game Projects",-1),p=t("div",{style:{"margin-bottom":"30px"}}," The following games are made by me or I've heavily contributed to. ",-1);function u(a,b,w,f,v,y){const r=n("ProjectsList");return h(),l("div",null,[m,p,d(r,{projects:a.projects},null,8,["projects"])])}const I=i(g,[["render",u]]);export{I as default};
