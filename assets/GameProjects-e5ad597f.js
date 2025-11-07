@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-b7bc38af.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as h}from"./index-f650e78c.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-b3a92aea.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as h}from"./index-4d89daf1.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
@@ -142,28 +142,7 @@ import{P as e,a as o}from"./ProjectData-b7bc38af.js";import{d as s,_ as i,h as n
         <a href="https://www.therookies.co/entries/5001" target="_blank">Rookies Entry</a>
         <a href="https://liamvb.itch.io/banana-wars" target="_blank">itch.io page</a>     
     </div>
-    `,"#e80fb7"),new e("project-5","Zombie Survivor AI","img/projects/zombie-survivor.png",`
-    <div class="paragraph">
-        <strong>Zombie Survivor AI</strong> is a game where it was an exam from <strong>DAE</strong>, where you would have to write an AI that would play the game for us using code injection.<br/>
-        The AI is written in a <strong>custom framework in C++</strong> making use of statemachines and blackboards.
-        For version control I made use of <strong>Github</strong>.
-    </div>
-
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/C8MBB69VfP0" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <br/>
-    Here you can see a visual representation of the player AI's thought process in <strong>UML</strong>.<br/>
-    Since the goal is to survive as long as possible and the zombies get stronger the longer you stay alive.<br/>
-    After a while food also starts to become a problem, hence the reason why exploring is a necessity.<br/>
-    All the movement of the player is handled using <strong>steering behaviors</strong>.<br/>
-
-    <div class="paragraph center">
-        <img src="/img/projects/zombie-survivor-behavior.png"/> 
-    </div>
-
-    <img :src="/img/projects/zombie-survivor-behavior.jpg"/>
-    `,"#e48246"),new e("project-6","Wheelchair Simulator","img/projects/vanilla.jpg",`
+    `,"#0d8a32ff"),new e("project-5","Wheelchair Simulator","img/projects/vanilla.jpg",`
     <div class="paragraph">
         <strong>Vanilla, Wheelchair Simulator</strong> is a school project where we worked together with <strong>UZ Ghent</strong> to create a <strong>VR</strong> game that mimics an electronic wheelchair.<br/>
         It's made in <strong>Unity</strong> and we used <strong>Perforce</strong> for version control.<br/>
