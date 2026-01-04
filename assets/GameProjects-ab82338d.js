@@ -1,4 +1,4 @@
-import{P as e,a as o}from"./ProjectData-b3a92aea.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as h}from"./index-4d89daf1.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
+import{P as e,a as o}from"./ProjectData-e5c71119.js";import{d as s,_ as i,h as n,c as l,e as d,a as t,o as h}from"./index-7b555c01.js";const c=[new e("project-1","Underworld Overseer","img/projects/underworld-overseer.jpg",`<div class="paragraph">
      <strong>Underworld Overseer</strong> is so far my favourite project to date.<br/>
      I worked on it from December 2022 till March 2025 from start to finish at <strong>Myron Games</strong> with 10 people.<br/>
      The game was made in <strong>Unity</strong> and we used <strong>Plastic SCM</strong> for version control.<br/>
